@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior:inherit;
+}
+body{
+    margin: 0;
+}
+.Perfil{
+    
+    margin-left: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 48%;
+    object-fit: cover;
+    
+}
+
+.tarjet{
+    background-image: url("img/pexels-lukas-574071.jpg");
+    background-size: cover;
+    height: 800%;
+    
+    
+    
+}
+.card{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: solid 0.2px;
+    color: whitesmoke;       
+    
+    
+}
+
+.sobremi{
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid white ;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+   margin-bottom: 0%;
+  
+}
+.tit{
+    margin-left: 42%;
+    margin-right: auto;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.sk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("https://fall2017foundations.files.wordpress.com/2017/09/gif1.gif");
+    object-fit:cover;
+    width: 100%;
+    height: 400px;
+    color: black;
+}
+.contenido{
+    backdrop-filter: blur(10px);
+    
+
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    object-fit: contain; 
+    
+}
+
+.conte{
+    padding-top: 6px;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 260px;
+    
+    
+    
+}
+.icon:hover{
+    width: 40px;
+    height: 40px;
+}
+.ico{
+    height: 30px;
+    width: 40px;
+}
+
+form{
+    border-radius: 20px;
+    backdrop-filter: blur(20px);    
+  
+}
+.Inicio{
+    background-image: url("img/pexels-toni-cuenca-585752\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    
+}
+.contenedor-texto{
+    margin-left:40%;
+    width: 380px;
+}
+.typed{
+    color: rgb(52, 152, 219) ;
+
+}
+.Bienvenido{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 90px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    color: #734222; 
+   
+    
+}
+.ini{
+    width: 100px;
+    display: inline-block;
+	position: sticky;
+    text-decoration: none;
+	top:90%;
+    margin-left: 92%;
+	opacity: .8;
+	font-size: 20px;
+    z-index: 1;
+    
+
+    
+    
+}
+.map{
+    margin:0;
+    padding: 0;
+}
+
+.btn{
+    background-color: #2a297c;
+    
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+}
+.btn1{
+    border-radius: 17px;
+}
+
+
+@media (max-width:50rem) and (min-width: 200px){
+   .cuadro{
+    width: 300px;
+    
+   } 
+   .contenedor-texto{
+    margin-left:20%;
+    width: 270px;
+}
+.Perfil{
+    margin-left: 18vh;
+}
+.conte{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ini{
+    border: solid white;
+    top: 85%;    
+    margin-left:76%;
+    width: 70px;
+    padding: 0;
+}
+}
+.fo{
+    background-color: #2a297c;
+}
+    
